@@ -1,0 +1,7 @@
+// Description
+// Assignation incompatible
+
+{
+    float a = "Hello";
+    //PASSED
+}

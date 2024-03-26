@@ -1,0 +1,18 @@
+// Description :
+//    fichier inclut
+//
+// Résultat :
+// 
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    float i = 5.0;
+    float j = 10.0;
+    boolean b = false;
+    string s = "Ok je ne suis plus inclusif";
+
+    b = j < i;
+    i = 50.0;

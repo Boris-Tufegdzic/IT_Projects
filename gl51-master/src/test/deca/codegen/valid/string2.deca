@@ -1,0 +1,21 @@
+// Description :
+//    Tests sur les variables de type int et float
+//
+// Résultat :"something
+// something else
+// something else"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    string str = "something";
+    int a = 0;
+    while (a < 3){
+        println(str);
+        str = "something else";
+        a = a+1;
+    }
+
+}

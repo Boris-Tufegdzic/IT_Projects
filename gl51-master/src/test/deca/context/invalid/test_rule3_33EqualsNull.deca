@@ -1,0 +1,8 @@
+//Description
+// On ne peut pas comparer un entier à NUll
+
+{
+    int a = 2;
+    if(a == null){println("pas ok");}
+
+}

@@ -1,0 +1,9 @@
+// Description
+// PLUS uniquement entre des nombres
+
+{
+    int a = 2;
+    boolean b = true;
+    b = a + b;//error
+    //PASSED
+}

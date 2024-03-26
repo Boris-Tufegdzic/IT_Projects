@@ -1,0 +1,9 @@
+// Description
+
+{
+    int a;
+    float b;
+    boolean c;
+    // println(c); on peut pas print boolean, on a pas le droit
+    string e;
+}

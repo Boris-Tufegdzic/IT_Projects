@@ -1,0 +1,22 @@
+// Description:
+//    tests d'héritage
+//
+// Resultats:
+//    5
+//
+//
+
+class A{
+	protected int a = 5;
+}
+class B extends A{
+	int b;
+	int geta(){
+		return a;
+	}
+}
+
+{
+    B b = new B();
+    println(b.geta());
+}

@@ -1,0 +1,32 @@
+//Description
+//Utilisation complexe avec appel de method
+
+// Result:
+// "4
+// 4"
+
+class A {
+    int x = 7;
+    int getX(){
+        return this.x;
+    }
+}
+
+class B extends A {
+    int getX() {
+        return 4;
+    }
+}
+
+{
+    A a = new B();
+    B b;
+    int x1;
+    int x2;
+    x1 = a.getX();
+    println(x1);
+
+    b = new B();
+    x2 = b.getX();
+    println(x2);
+}

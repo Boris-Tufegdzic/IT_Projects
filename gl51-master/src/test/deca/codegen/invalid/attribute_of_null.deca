@@ -1,0 +1,13 @@
+// Description :
+//      Test attribut null
+// Résultats :
+//      ERROR: "Un truc avec dereferencing error ou un truc comme ça" Virgile
+
+class A {
+    int x = 1;
+}
+
+{
+    A a = null;
+    print(a.x);
+}

@@ -1,0 +1,5 @@
+//Description
+//Init class dans main
+
+class A {}
+{ A a = new A();}

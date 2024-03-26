@@ -1,0 +1,8 @@
+{
+    int i = (3 * 50 / 10) % 3 + 18 * 3; //54
+    int x;
+    println(i);
+
+    x = readInt();
+    println(x - (55 / 11) % 2);
+}

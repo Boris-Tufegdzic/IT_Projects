@@ -1,0 +1,7 @@
+// Description
+// Variable déclaré deux fois
+
+{
+    int b;
+    int b; //b déjà déclaré
+}

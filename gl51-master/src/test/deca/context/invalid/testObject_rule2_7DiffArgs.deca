@@ -1,0 +1,12 @@
+//Description
+//Method redefinie pas meme signature, arguments ici
+
+class A {
+    void x(int a) {}
+}
+class B extends A {
+    void x(float a) {} //pas meme argument que premiere method
+}
+
+
+//passed

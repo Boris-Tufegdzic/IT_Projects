@@ -1,0 +1,8 @@
+//Description
+//meme method définie deux fois
+
+class A {
+    void x(){}
+    void x(){}
+}
+//erreur relevée

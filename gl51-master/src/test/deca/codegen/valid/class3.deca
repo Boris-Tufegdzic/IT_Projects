@@ -1,0 +1,35 @@
+// Description :
+//    Test de classe avec plusieurs constructeurs
+//
+// Résultat :
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class A_class{
+    int a;
+    bool b;
+
+    public A_class(){}
+
+    public A_class(int a){
+        this.a = a;
+    }
+
+    public A_class(bool b){
+        this.b = b;
+    }
+
+    public A_class(int a, bool b){
+        this.a = a;
+        this.b = b;
+    }
+
+}
+
+{
+    A_class A = new A(1);
+    println(A.a);
+}

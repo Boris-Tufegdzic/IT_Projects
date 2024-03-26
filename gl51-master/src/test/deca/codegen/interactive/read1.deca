@@ -1,0 +1,21 @@
+// Description :
+//    test de readInt() et readFloat() dans des print
+//
+// Résultat :
+//    Please enter an integer
+//    [First input]
+//    Please enter a float
+//    [Second input]
+// 
+// Historique :
+//    créé le 03/01/2024
+
+{
+    println("Please enter an integer");
+    print(readInt());
+    println();
+    println("Please enter a float");
+    print(readFloat());
+    println();
+}
+

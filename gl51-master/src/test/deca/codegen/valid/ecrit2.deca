@@ -1,0 +1,19 @@
+// Description:
+//    écriture de flottants
+//
+// Résultat:
+//    -2.50000e+00
+//    7.18000e+00
+//    9.80000e+01
+//
+// Historique:
+//    créé le 03/01/2024
+
+{
+   println(-2.5f);
+   print(7.18f);
+   println();
+   println(98.0f);
+}
+
+

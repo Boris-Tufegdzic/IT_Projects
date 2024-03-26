@@ -1,0 +1,10 @@
+
+class A{
+    int meth(void param){
+        return 1;
+    }
+}
+{
+    A a = new A();
+    println(a.meth(2));
+}

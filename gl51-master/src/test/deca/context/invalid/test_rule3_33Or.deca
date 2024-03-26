@@ -1,0 +1,9 @@
+// Description
+// OR doit être entre boolean
+
+{
+    int a = 2;
+    boolean b = true;
+    if(a || b){}//error
+    //PASSED
+}

@@ -1,0 +1,21 @@
+// Description :
+//    test d'additions et de soustractions sur des entiers
+//
+// Résultat :
+//    8
+//    -1
+//    -6
+//    4
+//    -11
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    print(3 + 5);
+    println();
+    println(-3 + 2);
+    println(-5 + (-1));
+    println(7 - 3);
+    println(14 - 25);
+}

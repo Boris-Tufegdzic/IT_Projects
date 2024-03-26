@@ -1,0 +1,13 @@
+//Description
+//Erreur de cast
+
+
+class A {}
+class C {}
+
+{
+    A a = new A();
+    C c = (C) (a); //error A et C n'ont rien en commun
+}
+//passed
+

@@ -1,0 +1,12 @@
+// Description :
+//    test de readInt() et readFloat() dans des print
+//
+// Résultat :
+//    Please enter a letter
+//    ERROR: Input error
+
+{
+    println("Please enter a string");
+    println(readInt());
+}
+

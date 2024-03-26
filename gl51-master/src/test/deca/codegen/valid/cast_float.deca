@@ -1,0 +1,53 @@
+// Description :
+//    test d'additions et de soustractions sur des flottants
+//
+// Résultat :
+// 3
+// -3
+// 5
+// -4
+// 6
+// -6
+// 0
+// 0
+// 1
+// -1
+// 1
+// 2
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    float a  = 3.0f;
+    float b = -3.0f;
+    
+    float c = 5.4f;
+    float d = -4.3f;
+    
+    float e = 6.7f;
+    float f = -6.8f;
+
+    float g = 0.0f;
+    float h = -0.0f;
+
+    float i = 1.5f;
+    float j = -1.5f;
+    float k = 1.99999f;
+    float l = 1.99999999f;
+
+
+
+    println((int)(a));
+    println((int)(b));
+    println((int)(c));
+    println((int)(d));
+    println((int)(e));
+    println((int)(f));
+    println((int)(g));
+    println((int)(h));
+    println((int)(i));
+    println((int)(j));
+    println((int)(k));
+    println((int)(l));
+}

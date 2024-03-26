@@ -1,0 +1,40 @@
+// Description :
+//    Tests sur les variables de type boolean
+//
+// Résultat :"ok1
+// ok2
+// ok3
+// ok4"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    boolean a;
+    boolean b = true;
+    boolean c = false;
+    boolean d = true;
+    a = d && c && b;
+
+    if (!a && b){
+        println("ok1");
+    }
+
+    if (b && d){
+        println("ok2");
+    }
+
+    if (a || b){
+        println("ok3");
+    }
+
+    if (!(a || c)){
+        println("ok4");
+    }
+
+    if (((!(a||c) || (a && b)) && true) && ((c||d) || (a && c)) && b){
+        println("ok5");
+    }
+
+}

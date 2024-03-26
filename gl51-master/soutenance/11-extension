@@ -1,0 +1,5 @@
+# ./src/main/bin/decac -byte 7-extends-method-redefinition.deca
+# cd soutenance
+# java Main
+#
+# par exemple

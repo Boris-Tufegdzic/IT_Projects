@@ -1,0 +1,11 @@
+// Résultats :
+//      ERROR: Dereferencing null
+
+class A {
+    int x = 1;
+}
+
+{
+    A a = null;
+    print(a.x);
+}

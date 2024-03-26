@@ -1,0 +1,8 @@
+//Description
+// Négation que sur boolean
+
+{
+    int a = 2;
+    if(!a) {}//error car a non boolean
+    //PASSED
+}

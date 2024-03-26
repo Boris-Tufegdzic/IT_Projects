@@ -1,0 +1,39 @@
+// Résultat :
+//  0 
+//  -2
+//  2
+//  2.50000e+00
+//  0x1.4p+1
+//  7.18000e+00
+//  0x1.cb851ep+2
+//  1234
+//  1234
+//  56789
+//  56789
+
+{
+    int i = 0;
+    boolean b = true;
+    string s = "1234";
+    string t;
+    float j = 2.5;
+
+    print(i);
+    println();
+    i = 2;
+    println(-i);
+    printlnx(i);
+
+    println(j);
+    printlnx(j);
+    j = 7.18;
+    println(j);
+    printlnx(j);
+
+    t = s;
+    println(t);
+    printlnx(t);
+    t = "56789";
+    println(t);
+    printlnx(t);
+}

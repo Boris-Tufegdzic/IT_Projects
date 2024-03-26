@@ -1,0 +1,11 @@
+// Description :
+//      Tests de division par zéro
+// Résultats :
+//      ERROR: Float overflow
+
+
+
+
+{
+    println(1.0e+20f*1.0e+20f);
+}

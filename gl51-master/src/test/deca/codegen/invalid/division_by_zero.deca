@@ -1,0 +1,11 @@
+// Description :
+//      Tests de division par zéro
+// Résultats :
+//      ERROR: Division by zero
+
+
+
+
+{
+    print(1/0);
+}

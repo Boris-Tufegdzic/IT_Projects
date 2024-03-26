@@ -1,0 +1,41 @@
+// Description :
+//    test d'utilisation de fonctions dans des fonctions
+//
+// Résultat :
+//  
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class A{
+	int return_argument(int i){
+		return i;
+	}
+
+	int subtract_5(int i){
+		return return_argument(i)-5;
+	}
+		
+	int multiply_by_4(int i){
+		return 4*subtract_5(i);
+	}
+	
+	int divide_by_2(int i){
+		return multiply_by_4(i)/2;
+	}
+	
+	int add_1(int i){
+		return divide_by_2(i)+1;
+	}
+	
+	void final_print(int i){
+		println(add_1(i));
+	}
+}
+
+{
+	A a = new A();
+	a.final_print(6);
+    a.final_print(10);
+}

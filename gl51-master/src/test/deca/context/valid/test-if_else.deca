@@ -1,0 +1,20 @@
+// Description
+
+{
+    boolean b = true;
+    if (b) {
+        //string a = "Hello"; pas possible en déca
+        //int a = 2; pas possible en Déca
+        println("Hello");
+
+        while(true){
+            while(true){
+                //int c; pas possible ne deca ici
+                println("Hi diddle dee dee");
+                print(-2);
+            }
+        }
+    } else {
+        println("jaaj");
+    }
+}

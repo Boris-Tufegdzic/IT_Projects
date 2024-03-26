@@ -1,0 +1,13 @@
+// Résultat :
+//    coucou
+//    coucou
+
+{
+    int i = 0;
+    while (i < 3) {
+        if (i % 2 == 0) {
+            println("coucou");
+        }
+        i = i + 1;
+    }
+}

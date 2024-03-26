@@ -1,0 +1,27 @@
+// Description :
+//    test de readInt() et readFloat() avec identificateurs
+//
+// Résultat :
+//    Please enter an integer
+//    You have entered: [First input]
+//    Please enter a float
+//    You have entered: [Second input]
+// 
+// Historique :
+//    créé le 03/01/2024
+
+{
+    int x;
+    float y;
+    println("Please enter an integer");
+    x = readInt();
+    print("You have entered: ");
+    print(x);
+    println();
+    println("Please enter a float");
+    y = readFloat();
+    print("You have entered: ");
+    print(y);
+    println();
+}
+

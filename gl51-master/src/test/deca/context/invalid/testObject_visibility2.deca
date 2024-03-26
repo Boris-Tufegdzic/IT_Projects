@@ -1,0 +1,11 @@
+//Description
+//Accès direct à un attribut privé
+
+class A {
+    protected int i = 1;
+}
+
+{
+    A a = new A();
+    println(a.i);
+}

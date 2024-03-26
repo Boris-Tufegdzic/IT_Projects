@@ -1,0 +1,12 @@
+// Description :
+//    test les fichiers incluts
+//
+// Résultat :
+// OK je suis toujours inclusif
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+#include "included2_1.decah"
+#include "included2_2.decah"

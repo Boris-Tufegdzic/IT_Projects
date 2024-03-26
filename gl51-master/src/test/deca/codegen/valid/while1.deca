@@ -1,0 +1,18 @@
+// Description :
+//    test de boucle while avec identificateur
+//
+// Résultat :
+//    coucou
+//    coucou
+//    coucou
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    int i = 0;
+    while (i < 3) {
+        println("coucou");
+        i = i + 1;
+    }
+}

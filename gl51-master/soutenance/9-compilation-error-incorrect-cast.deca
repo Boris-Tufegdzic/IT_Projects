@@ -1,0 +1,17 @@
+class Animal {
+    void crie() {
+        println("Wooo Je suis un animal");
+    }
+}
+
+class Camion {
+    void klaxon() {
+        println("Pouet Pouet Je suis un camion");
+    }
+}
+
+{
+    Camion c = new Camion();
+    Animal a = (Animal) (c);
+    a.crie();
+}

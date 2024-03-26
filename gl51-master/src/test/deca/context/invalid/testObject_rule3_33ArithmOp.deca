@@ -1,0 +1,9 @@
+// Description
+
+class A {}
+{
+    int entier = 2;
+    A a = new A();
+    entier = entier + a; //errir car on ne peut pas sun in int et une class
+}
+//passed

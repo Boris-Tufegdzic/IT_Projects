@@ -1,0 +1,10 @@
+//Description
+// Utilisation de return .. alors que type de renvoie est void
+
+class A {
+    void method(){
+        int a = 2;
+        return a; // On retourne int alors que le type de retour est void
+    }
+}
+//passed

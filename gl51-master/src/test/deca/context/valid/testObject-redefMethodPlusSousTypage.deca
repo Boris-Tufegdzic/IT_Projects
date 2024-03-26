@@ -1,0 +1,14 @@
+//Description
+//Redefinition methode herité avec type de retour sous type du type de base
+//partie de rule 2_7
+
+class A {
+    A method(){
+        return new A();
+    }
+}
+class B extends A { // B sous type de A
+    B method() {
+        return new B(); //type de retour (B) bien sosu type de A
+    }
+}

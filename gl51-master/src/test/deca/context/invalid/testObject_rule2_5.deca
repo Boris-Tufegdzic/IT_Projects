@@ -1,0 +1,8 @@
+//Description
+//Champ déclaré de type void
+
+class A {
+    void a;// type différent de void
+    void x(){}
+}
+//passed

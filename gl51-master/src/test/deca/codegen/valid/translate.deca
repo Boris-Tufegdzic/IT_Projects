@@ -1,0 +1,8 @@
+class A{
+	protected int a;
+	void seta(int a){ this.a = a;}
+	void translatea(){
+		int b = 1;
+		this.a = a + b;
+	}
+}

@@ -1,0 +1,7 @@
+//Description
+// identificateur de type non déclaré
+
+{
+    double a; //Double n'existe pas en Deca
+    //PASSED
+}

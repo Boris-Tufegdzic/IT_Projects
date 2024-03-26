@@ -1,0 +1,7 @@
+//Description
+//Champ de type non void
+
+{
+    void a;//error
+    //PASSED
+}

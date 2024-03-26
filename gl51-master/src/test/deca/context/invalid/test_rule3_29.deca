@@ -1,0 +1,7 @@
+//Description
+// Expression non boolean dans une condition
+
+{
+    if(2) {} //2 n'est pas un boolean
+    //PASSED
+}

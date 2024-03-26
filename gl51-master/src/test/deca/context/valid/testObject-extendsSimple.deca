@@ -1,0 +1,5 @@
+//Description
+//Just extends
+
+class B {}
+class A extends B {}

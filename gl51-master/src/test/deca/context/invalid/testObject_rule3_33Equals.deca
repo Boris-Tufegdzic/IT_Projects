@@ -1,0 +1,8 @@
+//Description
+
+class A {}
+{
+    A a = new A();
+    if(a == true) {} //error
+}
+//Passed

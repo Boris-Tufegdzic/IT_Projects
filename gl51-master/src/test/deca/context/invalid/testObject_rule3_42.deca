@@ -1,0 +1,9 @@
+//Description
+//new sur un objet qui n'est pas une class
+
+class A {}
+{
+    int b;
+    A a = new b(); //error
+}
+//passed

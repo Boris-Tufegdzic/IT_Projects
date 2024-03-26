@@ -1,0 +1,10 @@
+//Description
+//error de type dans instanceof
+
+class A {}
+{
+    A a = new A();
+    if (a instanceof true){}//error car true n'est pas une class
+   // if (a instanceof int){} ca ca marche
+}
+//releve erreur

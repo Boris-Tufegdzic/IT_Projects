@@ -1,0 +1,27 @@
+// Description :
+//    test de cast incorrect
+//
+// Résultat :
+// "Error"
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class Animal {
+    void crie() {
+        println("Wooo Je suis un animal");
+    }
+}
+
+class Camion {
+    void klaxon() {
+        println("Pouet Pouet Je suis un camion");
+    }
+}
+
+{
+    Camion c = new Camion();
+    Animal a = (Animal) (c);
+    a.crie();
+}

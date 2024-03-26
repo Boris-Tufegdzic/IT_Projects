@@ -1,0 +1,7 @@
+//Description
+//Deux parametrede la method sont identiques
+
+class A {
+    void method(int a, int a) {}
+}
+//releve erreur

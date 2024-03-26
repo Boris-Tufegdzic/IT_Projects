@@ -1,0 +1,24 @@
+// Description :
+//      Test objet null
+// Résultats :
+// je suis nul
+// je ne suis plus nul 
+
+
+
+
+class A{}
+
+{
+    A a = null;
+
+    if (a == null){
+        println("je suis nul");
+    }
+
+    a = new A();
+
+    if (a != null){
+        println("je ne suis plus nul");
+    }
+}

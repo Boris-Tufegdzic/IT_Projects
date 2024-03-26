@@ -1,0 +1,9 @@
+//Description
+//Expression non compatible avec print
+
+class A {}
+{
+    A a = new A();
+    println(a); //On peut pas print un objet class
+}
+//passed

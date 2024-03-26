@@ -1,0 +1,45 @@
+// Description :
+//      Tests de multiplication sur des entiers
+// Résultats :
+//  0
+//  56
+//  -16
+//  -40
+//
+//  0
+//  0
+//  6
+//  -2
+//  0
+//
+//  1
+//  0
+//  1
+//
+//  -1
+//  -9
+
+
+{
+    print(0*5);
+    println();
+    println(1*56);
+    println(-2*8);
+    println(5*(-8));
+    println();
+
+    println(0/5);
+    println(1/6);
+    println(6/1);
+    println(-6/3);
+    println(5/(-9));
+    println();
+
+    println(2*6/9);
+    println(2*(6/9));
+    println((2*6)/9);
+    println();
+
+    println(-6/(2*3));
+    println((6/2)*(-3));
+}

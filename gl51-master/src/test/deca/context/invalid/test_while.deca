@@ -1,0 +1,6 @@
+// Description
+
+{
+   // while(!2) {}
+   while(-true){}
+}

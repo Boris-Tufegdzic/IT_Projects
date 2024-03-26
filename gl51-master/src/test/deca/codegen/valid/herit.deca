@@ -1,0 +1,31 @@
+class A{
+	protected float a;
+}
+class B extends A{
+	protected int b;
+	void test(float c, float d){
+		this.a = 0.0;
+		this.b = 10000;
+		while(this.a + this.b + c + d > 100){
+			this.a = this.a + 0.1;
+			this.b = this.b/2;
+			c = c - 0.1;
+			d = d - 0.1;
+			if(this.a < 50){
+				println(this.a);
+			}
+			else{
+				print(this.b);
+				print();
+			}
+
+		}
+	}
+}
+
+{
+	B b = new B();
+	b.test(42.0, 42.0);
+
+
+}

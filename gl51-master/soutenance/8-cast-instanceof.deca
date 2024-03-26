@@ -1,0 +1,57 @@
+// Résultat :
+// "ok1
+// ok2
+// ok3
+// ok4
+// ok5
+// ok6"
+
+
+class Animal {
+    void crie() {
+        println("Wooo Je suis un animal");
+    }
+}
+
+class Chat extends Animal {
+    void miaou() {
+        println("Miaou Je suis un chat");
+    }
+}
+
+{
+    Chat c = new Chat();
+    Animal a;
+    Chat c2;
+    Animal aa;
+    if (c instanceof Chat){
+        println("ok1");
+    }
+    if (c instanceof Animal){
+        println("ok2");
+    }
+
+
+    a = (Animal) (c);
+    if (a instanceof Animal){
+        println("ok3");
+    }
+    if (a instanceof Chat){
+        println("ok4");
+    }
+
+
+    c2 = (Chat) (a);
+    if (c2 instanceof Chat){
+        println("ok5");
+    }
+    if (c2 instanceof Animal){
+        println("ok6");
+    }
+
+
+    aa = new Animal();
+    if (aa instanceof Chat){
+        println("not ok");
+    }
+}

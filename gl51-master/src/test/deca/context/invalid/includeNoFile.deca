@@ -1,0 +1,10 @@
+// Description :
+//    teste les fichiers inclus
+//
+// Résultat :
+// included1.decah: include file not found
+//
+// Historique :
+//    créé le 01/01/2024
+
+#include "included1.decah"

@@ -1,0 +1,8 @@
+// Description
+//Identificateur de super class non déclaré
+
+class A extends B {
+    // B non déclaré
+}
+//Passed
+

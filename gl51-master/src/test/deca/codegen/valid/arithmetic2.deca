@@ -1,0 +1,21 @@
+// Description :
+//    test d'additions et de soustractions sur des entiers et des flottants
+//
+// Résultat :
+//    8.00000e+00
+//    -1.10000e+00
+//    -6.00000e+00
+//    3.90000e+00
+//    -1.02000e+01
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    print(3.0f + 5);
+    println();
+    println(-3 + 1.9f);
+    println(-5.0f + (-1));
+    println(7 - 3.1f);
+    println(14.8f - 25);
+}

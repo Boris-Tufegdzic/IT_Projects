@@ -1,0 +1,20 @@
+// Description :
+//    Tests sur les variables de type int et float
+//
+// Résultat :"something"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class A{
+    void print_str(string str){
+        println(str);
+    }
+}
+
+{
+    A a = new A();
+    a.print_str("something");
+}

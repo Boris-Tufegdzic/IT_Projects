@@ -1,0 +1,17 @@
+//Description
+//Argument in methods
+
+class A {
+    void say(string str) {
+        println(str);
+    }
+    void swallow(int a, float b, boolean c){
+        //ne fait rien, just swallow arguments
+    }
+}
+
+{
+    A a = new A();
+    a.say("Wanheda, commander of death !");
+    a.swallow(2, 2.0f, true);
+}

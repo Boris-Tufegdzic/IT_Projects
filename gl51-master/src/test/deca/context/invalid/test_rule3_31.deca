@@ -1,0 +1,8 @@
+// Description
+// Expression non compatible avec print
+
+{
+    boolean a;
+    println(a);
+    //PASSED
+}

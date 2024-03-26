@@ -1,0 +1,32 @@
+// Description :
+//    test d'utilisation de fonctions dans des fonctions
+//
+// Résultat :
+// "Wooo Je suis un animal"
+// "Miaou Je suis un chat"
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class Animal {
+    void crie() {
+        println("Wooo Je suis un animal");
+    }
+}
+
+class Chat extends Animal {
+    void miaou() {
+        println("Miaou Je suis un chat");
+    }
+}
+
+{
+    Chat c = new Chat();
+    Animal a;
+    Chat c2;
+    a = (Animal) (c);
+    a.crie();
+    c2 = (Chat) (a);
+    c2.miaou();
+}

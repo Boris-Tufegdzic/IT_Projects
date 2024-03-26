@@ -1,0 +1,7 @@
+class A{
+	protected int a;
+	void seta(int a){ this.a = a;}
+	void test(){
+		seta(); //doit retourner incorrect number of parameters à cette ligne
+	}
+}

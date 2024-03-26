@@ -1,0 +1,7 @@
+// Description:
+// identifiant non déclaré
+
+{
+    println(a); //a non déclaré
+    //PASSED
+}

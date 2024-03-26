@@ -1,0 +1,9 @@
+// Description
+// Erreur operation arithmétique
+
+{
+    boolean isTrue = true;
+    float f = 2.2f;
+    f = f + isTrue; //on ne peut pas sum float et boolean
+    //PASSED
+}

@@ -1,0 +1,10 @@
+//Description
+// test instanceof
+// Résultat :
+// oui
+
+class A {}
+{
+    if(null instanceof A){println("non");}
+    else {println("oui");}
+}

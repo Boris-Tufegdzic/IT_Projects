@@ -1,0 +1,26 @@
+// Description :
+//    test de conditions imbriquées et d'opérations et/ou simples
+//
+// Résultat :
+//    ok
+//
+// Historique :
+//    créé le 31/12/2023
+
+{
+   if (1 >= 0 && 55 == 45) {
+      println("erreur 1");
+   } else if (1 >= 2 || 1 >= 0) {
+      if (1 != 1) {
+         println("erreur 2");
+      } else if (1 == 1) {
+         if (2 == 2) {
+            println("ok");
+         }
+      } else {
+         println("erreur 4");
+      }
+   } else { 
+      println("erreur 5");
+   }
+}

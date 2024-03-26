@@ -1,0 +1,20 @@
+//Description
+//Argument in methods
+
+// Result:
+// "Wanheda, commander of death !"
+
+class A {
+    void say() {
+        println("Wanheda, commander of death !");
+    }
+    void swallow(int a, float b, boolean c){
+        //ne fait rien, just swallow arguments
+    }
+}
+
+{
+    A a = new A();
+    a.say();
+    a.swallow(2, 2.0f, true);
+}

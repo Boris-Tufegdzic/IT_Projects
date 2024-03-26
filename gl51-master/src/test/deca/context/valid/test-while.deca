@@ -1,0 +1,10 @@
+// Description
+//En deca, pas déclaration variable dans une boucle (if/while/for)
+
+{
+    int a = 0;
+    while(a < 5) {
+       a = a + 1;
+    }
+    println("ok");
+}

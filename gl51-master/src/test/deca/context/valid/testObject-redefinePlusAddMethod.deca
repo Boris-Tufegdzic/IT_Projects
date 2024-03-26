@@ -1,0 +1,18 @@
+//Description
+//Redefinition de mthod plus definition de nouvelles
+
+class A {
+    int x = 7;
+    int getX(){
+        return this.x;
+    }
+}
+
+class B extends A {
+    int getX() {
+        return 4;
+    }
+    void sayHello(){
+        println("Hello");
+    }
+}

@@ -1,0 +1,21 @@
+// Description :
+//    test de moins unaire
+//
+// Résultat :
+//    -3
+//    -3.50000e+00
+//    5
+//    2
+//    -2
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    print(-3);
+    println();
+    println(-3.5f);
+    println(-(-5));
+    println(-(-(-(-(-(-(-(-(-(-(-(-2))))))))))));
+    println(-(-(-(-(-(-(-(-(-(-(-(-(-2)))))))))))));
+}

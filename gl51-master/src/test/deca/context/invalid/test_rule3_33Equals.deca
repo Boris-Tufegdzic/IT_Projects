@@ -1,0 +1,8 @@
+//Description
+//On doit comparer des objets comparables
+
+{
+    int a = 2;
+    if(a == true) {} //error
+    //PASSED
+}

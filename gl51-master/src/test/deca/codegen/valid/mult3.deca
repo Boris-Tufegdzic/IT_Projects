@@ -1,0 +1,46 @@
+// Description :
+//      Tests de multiplication entre des flottants et des entiers
+// Résultats :
+//0.00000e+00
+//5.00000e+00
+//8.50000e+00
+//-8.50000e+00
+//-8.50000e+00
+//-1.04000e+01
+
+//0.00000e+00
+//0.00000e+00
+//4.52553e+02
+//-4.52553e+02
+//0.00000e+00
+//4.80000e+00
+//-2.20000e+00
+//1.43750e+00
+//1.25000e+00
+//3.59375e-01
+//-1.03125e+00
+//-8.34783e+00
+
+  
+
+
+{
+    print(0.0f*3);
+    println();
+    println(1.0f*5);
+    println(-1*(-8.5f));
+    println(-1*8.5f);
+    println(8.5f*-1);
+    println(5.2f*(-2));
+
+    println(4521/(-9.99f));
+    println(0.0f/47);
+    println(6/1.25f);
+    println(-6.6f/3);
+
+    println(2*6.9f/9.6f);
+    println(2*((6/9.6f)));
+
+    println(-6.6f/(2*3.2f));
+    println((6/2.3f)*(-3.2f));
+}

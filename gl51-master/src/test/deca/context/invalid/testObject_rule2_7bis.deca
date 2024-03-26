@@ -1,0 +1,14 @@
+// Description
+// type de retour n'est pas un sous type du type de retour de la methode hérité
+
+class A {
+    B method(){
+        return new B();
+    }
+}
+class B extends A { //B sous type de A
+    A method(){ //On redenie method (de class A)
+        return new A(); //error car type de retour (A) pas un sous type de B
+    }
+}
+//passed

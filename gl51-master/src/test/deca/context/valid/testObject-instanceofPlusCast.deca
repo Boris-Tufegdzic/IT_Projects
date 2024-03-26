@@ -1,0 +1,13 @@
+//Description
+//test of instanceof plus Cast
+
+class A {}
+class B extends A {}
+
+{
+    A a = new B(); //polymorphisme
+    B b;
+    if(a instanceof B) { //true
+        b = (B) (a); //cast
+    }
+}

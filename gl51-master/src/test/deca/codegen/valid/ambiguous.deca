@@ -1,0 +1,23 @@
+// Description :
+//    test une déclaration ambigue d'une variable dans une méthode
+//
+// Résultat :
+//  5
+//  8
+//
+
+class A{
+	int a = 8;
+	int test(){
+		int a = 0;
+		a = a + 5;
+		return a;
+	}
+}
+
+{
+    A a = new A();
+
+    println(a.test());
+    println(a.a);
+}

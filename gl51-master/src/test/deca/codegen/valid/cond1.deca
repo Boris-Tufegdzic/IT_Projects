@@ -1,0 +1,17 @@
+// Description :
+//    test de conditions
+//
+// Résultat :
+//    ok
+// 
+// Historique :
+//    créé le 27/12/2023
+
+{
+   if (0 >= 1) {
+      println("erreur");
+   } else { 
+      println("ok");
+   }
+}
+

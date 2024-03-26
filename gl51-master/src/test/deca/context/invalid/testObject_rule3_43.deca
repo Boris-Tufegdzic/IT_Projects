@@ -1,0 +1,8 @@
+//Description
+//On peut pas faire super
+
+class A {
+    void x(){
+        this.super.super.this;
+    }
+}

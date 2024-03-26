@@ -1,0 +1,9 @@
+//Description
+//instanceof avec int, error
+
+//ceci est un test invalide
+class A {}
+{
+    A a = new A();
+    if(a instanceof int){}
+}

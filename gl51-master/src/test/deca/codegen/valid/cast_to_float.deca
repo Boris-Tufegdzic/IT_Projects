@@ -1,0 +1,29 @@
+// Description :
+//    test d'additions et de soustractions sur des flottants
+//
+// Résultat :
+// 1.00000e+01
+// 0.00000e+00
+// -1.00000e+01
+// 0.00000e+00
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    int a = 10;
+    int b = 0;
+
+    int c = -10;
+    int d = -0;
+
+    float e = (float)((int)((float)((int)((float)((int)((1.02f)))))));
+    int f = (int)(e);
+
+
+    println((float)(a));
+    println((float)(b));
+    println((float)(c));
+    println((float)(d));
+}

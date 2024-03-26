@@ -1,0 +1,9 @@
+//Description
+//méthode ou attributs inexistants
+
+class A {}
+{
+    int j = 0;
+    A a = new A();
+    a.j;
+}

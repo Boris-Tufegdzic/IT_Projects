@@ -1,0 +1,16 @@
+// Description :
+//    fichier inclut
+//
+// Résultat :
+// 
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+    if (b) {
+        j = j+i;
+    } else {j = i;}
+    if (j >= 50.0) {s = "Ok je reste inclusif";}
+

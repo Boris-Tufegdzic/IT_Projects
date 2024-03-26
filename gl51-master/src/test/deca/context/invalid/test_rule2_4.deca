@@ -1,0 +1,8 @@
+// Description
+// nom attribut déjà déclaré
+
+{
+    int x;
+    int x;
+    //PASSED
+}

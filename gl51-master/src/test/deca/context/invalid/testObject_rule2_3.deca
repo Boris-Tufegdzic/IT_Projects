@@ -1,0 +1,9 @@
+//Decription
+//Un nom de méthode redeclarer un nom de champ
+
+class B {}
+class A extends B {
+    int x;
+    void x() {} // x deja une variable, ne peut pas être une method
+}
+//releve bien une erreur

@@ -1,0 +1,18 @@
+//Description
+//Simple test of instanceof only
+
+// Result:
+// "Is A"
+
+class A {}
+class B {}
+
+{
+    A a = new A();
+   // B b = new B();
+    if(a instanceof A) { //true
+        println("Is A");
+    } else {
+        println("Not A");
+    }
+}

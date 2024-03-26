@@ -1,0 +1,32 @@
+// Description :
+//    Tests sur les variables de type int et float
+//
+// Résultat :"ok1
+// ok2
+// ok3
+// ok4"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    int a;
+    float b = 10.2;
+    a = 0;
+
+    if (a < b){
+        println("ok1");
+    }
+
+    if (a+10 <= b){
+        println("ok2");
+    }
+
+    a = a + 20;
+    if (a > b){
+        println("ok3");}
+
+    if (a > 1.2){
+        println("ok4");}
+}

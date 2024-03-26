@@ -1,0 +1,19 @@
+// Description :
+//    test méthode sans return
+//
+// Résultat :
+// "Error"
+//
+// Historique :
+//    créé le 01/01/2024
+
+class A{
+    int no_return(){
+        println("I am not returning anything");
+    }
+}
+
+{
+    A a = new A();
+    int i = a.no_return();
+}

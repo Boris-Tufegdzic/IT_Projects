@@ -1,0 +1,42 @@
+// Description :
+//    Test de modulo
+//
+// Résultat :
+//  0
+//  1
+//  0
+//  5
+//  -3
+//  0
+//  -1
+//  0
+//  6
+//  -6
+//  0
+//  0
+//  1
+//  -1
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+  print(0%10);
+  println();
+  println(1%10);
+  println(10%10);
+  println(15%10);
+
+  println(-3%5);
+  println(-5%5);
+  println(-6%5);
+
+  println(0%(-8));
+  println(6%(-8));
+  println(-6%(-8));
+  println(8%(-8));
+  println(-8%(-8));
+  println(9%(-8));
+  println(-9%(-8));
+
+}

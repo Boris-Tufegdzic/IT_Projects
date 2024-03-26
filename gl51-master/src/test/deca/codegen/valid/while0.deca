@@ -1,0 +1,15 @@
+// Description :
+//    test de boucle while
+//
+// Résultat :
+//    ok
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    while (false) {
+        println("erreur");
+    }
+    println("ok");
+}

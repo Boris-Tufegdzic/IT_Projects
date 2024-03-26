@@ -1,0 +1,6 @@
+// Description
+//Variable de type void
+
+{
+    void a;
+}

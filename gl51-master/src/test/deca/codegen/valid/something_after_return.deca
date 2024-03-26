@@ -1,0 +1,22 @@
+// Description :
+//    Tests commandes après un return
+//
+// Résultat :"42"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+
+class A{
+	int method(){
+		int a = 42;
+		return a;
+		print("I am printing after a return");
+	}
+}
+
+{
+	A a = new A();
+	println(a.method());
+}

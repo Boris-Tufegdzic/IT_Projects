@@ -1,0 +1,15 @@
+// Description :
+//    teste les fichiers inclus
+//
+// Résultat :
+// Idk what the error msg is when ther is 2 main
+//
+// Historique :
+//    créé le 01/01/2024
+
+#include "includedBadSyntax.decah"
+
+{
+    println(2.64589+15534);
+    println(12*85);
+}

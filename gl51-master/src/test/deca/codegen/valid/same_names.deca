@@ -1,0 +1,19 @@
+// Description :
+//    test les même noms
+//
+// Résultat :
+//  4
+//
+//
+class A{
+	void test(int test){ println(test); }
+	void test2(int test){
+		test = test + 1;
+		test(test);
+	}
+}
+
+{
+    A a = new A();
+    a.test2(3);
+}

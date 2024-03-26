@@ -1,0 +1,28 @@
+// Description:
+//    tests d'expressions entières plus avancées
+//
+// Resultats:
+//    0
+//    -5
+//    -2
+//    3
+//    13
+//    16
+
+{
+   int i = 0;
+   int j = 2;
+   i = 3 * i;
+   println(i);
+   i = i - 5;
+   println(i);
+   i = i / 2;
+   println(i);
+   i = (i + 50) % 5;
+   println(i);
+   i = i + 2 * 5;
+   println(i);
+   i = 10 + i / j;
+   println(i);
+}
+

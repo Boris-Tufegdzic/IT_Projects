@@ -1,0 +1,9 @@
+//Description
+//On doit faire des modulo entre entiers
+
+{
+    float a = 0.0f;
+    int b = 2;
+    b = a % b;  //error car par int int
+    //PASSED
+}

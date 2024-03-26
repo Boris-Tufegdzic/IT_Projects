@@ -1,0 +1,12 @@
+// Description :
+//    test l'option -n de decac
+//
+// Résultat :
+//    
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    float a = 1.0e+20*1.0e+20;
+}

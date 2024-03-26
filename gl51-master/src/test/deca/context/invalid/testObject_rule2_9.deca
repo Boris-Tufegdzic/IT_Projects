@@ -1,0 +1,7 @@
+//Description
+// Un parametre de method ne peut pas etre void
+
+class A {
+    void method(void param) {}
+}
+//passed

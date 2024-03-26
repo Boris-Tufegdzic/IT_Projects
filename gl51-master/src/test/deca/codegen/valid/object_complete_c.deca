@@ -1,0 +1,113 @@
+//Description
+//Test avec plein de fonctionnalitees
+//Verif que c'est bien ecrit en deca deja grace à la grammaire
+
+
+class Entity {
+    //position of entity
+    float x = 0;
+    float y = 0;
+    float z = 0;
+    protected int entityUUID = 123456789;
+
+    void setCoordinate(float x, float y, float z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    void toString(){
+        println("--------toString Entity ------------");
+        println(entityUUID);
+        println("------------------------------");
+    }
+}
+
+class Player extends Entity{
+    float coin;
+    boolean isvip = false; //bug si on met isVip car isVip method
+
+    void setCoin(float coin) {
+        this.coin = coin;
+    }
+
+    void setVip(boolean b) {
+        this.isvip = b;
+    }
+
+    float getCoins(){
+        return this.coin;
+    }
+
+    boolean isVip(){
+        return this.isvip;
+    }
+
+    void increaseCoin(float coin) {
+        this.coin = this.coin + coin;
+    }
+
+    //Override toString
+    void toString() {
+        println("-----toString Player --------");
+        println(entityUUID); //entityUUID accessible because protected, super optionnel ? en java oui
+        println(getCoins());
+        println("------------------------------");
+
+    }
+}
+
+class Monster extends Entity {
+
+    //Override toString
+    void toString() {
+        println("----- toString Monster --------");
+        println(entityUUID);
+        println("-----------------------------");
+    }
+}
+
+//main
+{
+
+    Entity ent = new Entity();
+    Player player = new Player();
+    Entity monster = new Monster();
+    Monster munch;
+
+    println("init classes done !");
+
+    //appel method
+    println("setCoordinate ...");
+    ent.setCoordinate(1.0f, 1.0f, 1.0f);
+    player.setCoordinate(2.0f, 2.0f, 2.0f);
+    monster.setCoordinate(3.0f, 3.0f, 3.0f);
+    println("setCoordinate done !");
+
+
+    println("Configure Player...");
+    player.setCoin(200.0f);
+    player.increaseCoin(20.0f);
+    player.setVip(true);
+    println("Configure Player done !");
+    println("Call player to String ...");
+    player.toString();
+
+    println("test instanceof de monster ...");
+    if(monster instanceof Monster) { //true
+        munch = (Monster) (monster); //Cast
+        munch.toString();
+        println("monster instance of Monster");
+    } else {
+        println("instanceof not working");
+    }
+
+    println("test while: increase player coin till 400.0f...");
+    while(player.getCoins() <= 400.0f) {
+        player.increaseCoin(20.0f);
+    }
+    println("test while done !");
+
+    println("Test complete finished ! Ciao");
+}
+

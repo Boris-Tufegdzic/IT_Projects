@@ -1,0 +1,18 @@
+// Description :
+//    Tests sur les variables de type int et float
+//
+// Résultat :"something"
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    string str = "something";
+    int a = 0;
+    if (a == 1){
+        str = "something else";
+    }
+
+    println(str);
+}

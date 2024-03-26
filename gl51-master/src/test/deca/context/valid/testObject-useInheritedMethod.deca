@@ -1,0 +1,12 @@
+//Description
+//Utilisation de mthod herité
+
+class A {
+    int get() {
+        return 0;
+    }
+}
+
+class B extends A {
+    int x = get();
+}

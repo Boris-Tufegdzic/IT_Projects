@@ -1,0 +1,13 @@
+// Description :
+//    fichier inclut
+//
+// Résultat :
+// 
+//
+//
+// Historique :
+//    créé le 01/01/2024
+
+{
+    println ("OK je suis encore inclusif et je fais de l'arithmétique");
+}

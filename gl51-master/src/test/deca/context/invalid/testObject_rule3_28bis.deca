@@ -1,0 +1,10 @@
+//Description
+//autre assignation incompatible
+
+class A {}
+class B {}
+{
+    A a = new A();
+    float b = a; //error
+}
+//passed

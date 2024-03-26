@@ -1,0 +1,9 @@
+//Description
+
+{
+
+    string a = "Hello";
+    //int a = 2;
+    println(a);
+    println("ok1", "ok2", "ok5");
+}

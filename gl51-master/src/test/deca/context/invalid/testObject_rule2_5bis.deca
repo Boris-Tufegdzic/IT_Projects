@@ -1,0 +1,11 @@
+// Description
+// identificteur deja definie dans la superclass mais n'est pas de type field
+
+class A {
+    void x() {}
+}
+
+class B extends A {
+    protected int x;
+}
+//passed
